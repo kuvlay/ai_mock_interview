@@ -51,7 +51,7 @@ npm run build
 npm run start
 ```
 
-Firebase client values must be available at Next.js build time. The included Docker/Compose files and Docker Hub workflow are starting configurations that require your deployment credentials and build-time environment configuration. They are not evidence of a successful deployment from this copy. The inherited `npm run lint` command uses `next lint`; review it before use with the installed Next.js version.
+Firebase client values must be available at Next.js build time. The included Docker/Compose files and Docker Hub workflow are starting configurations that require your deployment credentials and build-time environment configuration. The Docker Hub publish workflow is manual (`workflow_dispatch`) until this copy is configured with its own credentials. They are not evidence of a successful deployment from this copy. The inherited `npm run lint` command uses `next lint`; review it before use with the installed Next.js version.
 
 ## Scope and limitations
 
